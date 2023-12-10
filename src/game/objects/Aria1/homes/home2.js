@@ -2,7 +2,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import { OctreeHelper } from 'three/addons/helpers/OctreeHelper.js'
 
 export const home2 = (scene, worldOctree) => {
-  const modelLoader = new GLTFLoader().setPath('/models/')
+  const modelLoader = new GLTFLoader().setPath('./models/')
   modelLoader.load('Area1/home2.glb', (model) => {
     model.scene.position.set(20, 0, -30)
     scene.add(model.scene)

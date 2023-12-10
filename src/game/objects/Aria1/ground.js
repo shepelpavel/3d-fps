@@ -3,9 +3,9 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import { OctreeHelper } from 'three/addons/helpers/OctreeHelper.js'
 
 export const ground = (scene, worldOctree) => {
-  const modelLoader = new GLTFLoader().setPath('/models/')
+  const modelLoader = new GLTFLoader().setPath('./models/')
   const textureLoader = new THREE.TextureLoader()
-  textureLoader.load('/textures/Area1/ground.png', function (texture) {
+  textureLoader.load('./textures/Area1/ground.png', function (texture) {
     texture.colorSpace = THREE.SRGBColorSpace
     texture.wrapS = texture.wrapT = THREE.RepeatWrapping
     texture.offset.set(0, 0)

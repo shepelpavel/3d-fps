@@ -18,7 +18,7 @@ export const Game = () => {
   const clock = new THREE.Clock()
   const scene = new THREE.Scene()
 
-  textureLoader('/textures/Area1/bck.jpg', (texture) => {
+  textureLoader('./textures/Area1/bck.jpg', (texture) => {
     scene.background = texture
   })
   fillLightFn(scene)
