@@ -1,0 +1,1 @@
+export { onWindowResize } from './eventsListeners'

@@ -1,0 +1,6 @@
+export { directionalLightFn } from './Aria1/light/directionalLight'
+export { fillLightFn } from './Aria1/light/fillLight'
+export { ground } from './Aria1/ground'
+export { home1 } from './Aria1/homes/home1'
+export { home2 } from './Aria1/homes/home2'
+export { home3 } from './Aria1/homes/home3'
